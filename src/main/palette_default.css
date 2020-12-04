@@ -1,0 +1,45 @@
+:root {
+    --avatar-text-color:white;
+    --avatar-text-color-neg:white;
+
+    --link-color-default: #3480f3;
+
+
+
+    --dim-grey-default:#aaaaaa;
+    --dim-grey-neg-default:#aaaaaa;
+
+
+
+    --dim-B-grey-default: #727273;
+    --dim-B-grey-neg-default: #727273;
+
+    --dim-C-grey-default:#9a9a9a;
+    --dim-C-grey-neg-default:#9a9a9a;
+
+    --dim-D-grey-default:#cccccf;
+    --dim-D-grey-neg-default:#cccccf;
+
+    --light-grey-default:#ededed;
+    --light-grey-default-pdf:#ededed7f;
+
+    --dim-white: #f8f8f8;
+    --dim-white-neg: var(--black);
+
+    --remarq-black:#1f2124;
+
+    --black:#1f2124;
+    --black-neg:#ffffff;
+
+    --pale-blue:#d1e4fe;
+
+    --auth-update-green:#1cb98d; /*Author updates */
+    --auth-update-green-dark:#00b380;
+    --auth-update-pale-green:#e8f8f3;
+
+    --black-4a: #4a4a4a;
+
+    --black-5a: #333538;
+
+
+}

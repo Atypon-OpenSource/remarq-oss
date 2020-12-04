@@ -1,0 +1,127 @@
+@grove-color: orange;
+@grove-btn-color: darkslategrey;
+@grove-bg-color-1: gainsboro;
+@grove-bg-color-2: ghostwhite;
+@grove-rect-size:48px;
+@grove-panel-width: 500px;
+@grove-panel-height: 100%;
+    
+@grove-effect-timeout: 200ms;
+
+
+.grove {
+    background-color: @grove-color ;
+}
+
+.grove.logo {
+    color:white!important;
+    background-color: @grove-btn-color!important;
+    border-left: 5px solid @grove-color;
+    line-height: @grove-rect-size;
+    vertical-align: middle;
+    font-family: serif;
+    font-variant-ligatures: historical-ligatures;
+    font-size:@grove-rect-size;
+    width:@grove-rect-size;
+    height: @grove-rect-size;
+}
+
+
+.banner {
+    height: @grove-rect-size;
+}
+
+.banner.collapsed {
+    width: @grove-rect-size;
+    /*border-radius: 50%;*/
+}
+
+.banner.expanded {
+    width: 100%;
+}
+
+#GroveSide{
+    /*"border-radius": "50%",*/
+    position:fixed;
+    right:0;
+    top:0;
+    z-index:99999;
+}
+
+#GroveSide[data-expanded="false"] {
+    height:0;
+    width:0;
+    transition: width @grove-effect-timeout linear;
+}
+
+
+#GroveSide[data-expanded="true"] {
+    height:@grove-panel-height;
+    width:@grove-panel-width;
+    transition: width @grove-effect-timeout linear;
+
+}
+
+
+
+#pdfFrame {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:99998;
+    background-color:black;
+}
+:root {
+    --grove-rect-size: @grove-rect-size
+}
+.gIcon {
+    align-self: center;
+    /*border-radius: 50%;*/
+    font-size:@grove-rect-size;
+    width:@grove-rect-size;
+    height: @grove-rect-size;
+
+}
+
+
+.groveLeftBorderLine {
+    border-left:solid @grove-color 6px;
+}
+
+.groveRepliesLeftBorderLine {
+    margin-left: 20px;
+    border-left-style: inset;
+}
+
+.material-icons.lightgreen { color: @grove-color; }
+
+.backgroundLightGrey {
+    background-color: @grove-bg-color-2;
+}
+
+.backgroundDarkGrey {
+    background-color: @grove-bg-color-1;
+}
+
+#CornerWidget {
+    /*"border-radius": "50%",*/
+    height: @grove-rect-size;
+    width: @grove-rect-size;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+
+#CornerWidget[data-expanded="false"] {
+    right: 0;
+    transition: right @grove-effect-timeout linear;
+}
+#CornerWidget[data-expanded="true"] {
+    right: @grove-panel-width;
+    transition: right @grove-effect-timeout linear;
+}
+
+

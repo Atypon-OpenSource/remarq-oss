@@ -1,0 +1,18 @@
+CACHE MANIFEST
+
+#v1 - Initial cache manifest
+
+#/pdf.js/generic/web/viewer/viewer.html
+#/dist/vendor.bundle.js
+#/dist/pdfFrame.bundle.js
+
+#/pdf.js/generic/web/images/Asset19.png
+#/pdf.js/generic/web/images/Asset33.png
+#/pdf.js/generic/web/viewer.css
+#/pdf.js/generic/web/images/Asset36.png
+#/app/images/pencil.svg
+#/pdf.js/generic/web/images/Asset47.png
+#/dist/b2a6341ae7440130ec4b4b186aff8413.woff2
+
+NETWORK:
+*

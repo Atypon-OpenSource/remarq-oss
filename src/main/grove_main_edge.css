@@ -1,0 +1,51 @@
+iframe#GroveSide {
+    position: fixed;
+    min-height: 100%;
+    height: 100%;
+	background: transparent;
+	min-width: 500px;
+	width: 500px;
+
+    transform: translate(500px,0);
+
+    right: 0;
+    top: 0;
+    height: 100vh;
+	z-index: 2147483647;
+    transition: transform 0.5s linear;
+    visibility: visible;
+}
+
+iframe#GroveSide[data-expanded="false"] {
+	transform: translate(500px,0)!important;
+}
+
+iframe#GroveSide[data-expanded="false"][data-theme="liter"] {
+	transform: none!important;
+}
+
+iframe#CornerWidget {
+	min-height: 103px;
+	height: 103px;
+	position: fixed;
+	right: 0px;
+	bottom: 20px;
+	min-width: 543px;
+	width: 543px;
+	z-index: 2147483647;
+    background: transparent;
+
+    visibility: hidden;
+
+    transform: translate(450px, 0);
+
+}
+
+iframe#CornerWidget[data-expanded="false"][data-expl="false"] {
+    transform: translate(450px,0)!important;
+	transition: all 0.5s linear;
+	visibility: visible!important;
+}
+
+
+

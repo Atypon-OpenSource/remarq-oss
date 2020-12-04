@@ -1,0 +1,24 @@
+:root {
+    --avatar-text-color:black;
+    --avatar-text-color-neg:white;
+
+    --link-color-default: #0000ff;
+
+    --dim-grey-default:#000000;
+    --dim-grey-neg-default:#ffffffff;
+
+    --dim-B-grey-default: #000000;
+    --dim-B-grey-neg-default: #ffffff;
+
+
+    --dim-C-grey-default:#000000;
+    --dim-C-grey-neg-default:#ffffff;
+
+    --dim-D-grey-default:#000000;
+    --dim-D-grey-neg-default:#ffffff;
+
+    --dim-white:#ffffff;
+    --black-4a: black;
+
+
+}

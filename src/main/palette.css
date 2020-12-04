@@ -1,0 +1,96 @@
+@import "palette_default.css";
+@import "palette_theme_yellow.css";
+
+
+/*@import "palette_high_contrast.css";*/
+/*@import "palette_theme_yellow_high_contrast.css";*/
+
+:root {
+    
+    --dim-grey-text:var(--dim-grey-default);
+    --dim-grey-text-neg:var(--dim-grey-neg-default);
+    --dim-grey-fill:var(--dim-grey-neg-default);
+    --dim-grey-fill-neg:var(--dim-grey-default);
+
+    --dim-B-grey-text: var(--dim-B-grey-default);
+    --dim-B-grey-text-neg: var(--dim-B-grey-neg-default);
+    --dim-B-grey-fill: var(--dim-B-grey-neg-default);
+    --dim-B-grey-fill-neg: var(--dim-B-grey-default);
+
+    --dim-C-grey-text: var(--dim-C-grey-default);
+    --dim-C-grey-text-neg: var(--dim-C-grey-neg-default);
+    --dim-C-grey-fill: var(--dim-C-grey-neg-default);
+    --dim-C-grey-fill-neg: var(--dim-C-grey-default);
+
+    /* TODO check liter.css */
+    --dim-D-grey-text: var(--dim-D-grey-default);
+    --dim-D-grey-text-neg: var(--dim-D-grey-neg-default);
+    --dim-D-grey-fill: var(--dim-D-grey-neg-default);
+    --dim-D-grey-fill-neg: var(--dim-D-grey-default);
+    --dim-D-grey-shadow: var(--dim-D-grey-fill);
+    --dim-D-grey-shadow-neg: var(--dim-D-grey-fill-neg);
+
+
+    --light-grey-fill:var(--light-grey-default);
+    --light-grey-text:var(--light-grey-default);
+    --light-grey-shadow:var(--light-grey-default);
+
+    --light-grey-fill-pdf:var(--light-grey-default-pdf);
+    --light-grey-text-pdf:var(--light-grey-default-pdf);
+    --light-grey-shadow-pdf:var(--light-grey-default-pdf);
+
+
+    --dim-white-text:var(--dim-white);
+    --dim-white-fill:var(--dim-white);
+
+    --dim-white-text-neg:var(--dim-white-neg);
+    --dim-white-fill-neg:var(--dim-white-neg);
+
+    --main-color-text:var(--main-color);
+    --main-color-fill:var(--main-color);
+
+    --main-color-rgb-text:var(--main-color-rgb);
+    --main-color-rgb-fill:var(--main-color-rgb);
+
+    --pale-color-text:var(--pale-color);
+    --pale-color-fill:var(--pale-color);
+
+    --dark-color-text:var(--dark-color);
+    --dark-color-fill:var(--dark-color);
+
+    --darker-color-text:var(--darker-color);
+    --darker-color-fill:var(--darker-color);
+
+    --remarq-black-text:var(--remarq-black);
+    --remarq-black-fill:var(--remarq-black);
+
+    --black-text:var(--black);
+    --black-fill:var(--black);
+
+    --link-color: var(--link-color-default);
+
+    --black-text-neg:var(--black-neg);
+    --black-fill-neg:var(--black-neg);
+
+    --pale-blue-text:var(--pale-blue);
+    --pale-blue-fill:var(--pale-blue);
+
+    --auth-update-green-text:var(--auth-update-green);
+    --auth-update-green-dark-text:var(--auth-update-green-dark) ;
+    --auth-update-pale-green-fill:var(--auth-update-pale-green);
+
+    --black-4a-text:var(--black-4a);
+    --black-4a-fill:var(--black-4a);
+
+    --black-5a-text:var(--black-5a); /* sidebar background*/
+    --black-5a-fill:var(--black-5a);
+
+    --quill-snow-blue: #06c;
+
+    --rmq-lite-grey: #727273;
+
+
+}
+
+
+

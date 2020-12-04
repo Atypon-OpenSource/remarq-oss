@@ -1,0 +1,46 @@
+<!-- This file is deprecated - PDF Viewer is now located under lib/pdf.js/generic/web/viewer.html -->
+
+<!DOCTYPE html>
+<html dir="ltr" mozdisallowselectionprint moznomarginboxes>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>PDF.js viewer</title>
+
+    <!--<script type="text/javascript" src="/javascript/googleAnalytics.js?pageViews=false"></script>-->
+    <script src="/dist/vendor.bundle.js" defer></script>
+    <script src="/dist/pdfFrame.bundle.js" defer></script>
+
+</head>
+<body id="pdfFrame">
+
+    <menu type="context" id="viewerContextMenu">
+        <menuitem id="contextFirstPage" label="First Page"
+                  data-l10n-id="first_page"></menuitem>
+        <menuitem id="contextLastPage" label="Last Page"
+                  data-l10n-id="last_page"></menuitem>
+        <menuitem id="contextPageRotateCw" label="Rotate Clockwise"
+                  data-l10n-id="page_rotate_cw"></menuitem>
+        <menuitem id="contextPageRotateCcw" label="Rotate Counter-Clockwise"
+                  data-l10n-id="page_rotate_ccw"></menuitem>
+    </menu>
+    
+	<!-- <div>
+        <img id="close" src="../web/images/Icon-X.svg" style="align:right; position:fixed">
+    </div> -->
+
+    <div id="viewerContainer" tabindex="0">
+        <div id="viewer" class="pdfViewer"></div>
+    </div>
+    
+    <div id="parentBar" class="c100 p0 orange small" style="position:fixed; left:0%; bottom:0%; margin:10px ">
+
+        <span id="myBar"></span>
+
+        <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+        </div>
+    </div>
+</body>
+</html>

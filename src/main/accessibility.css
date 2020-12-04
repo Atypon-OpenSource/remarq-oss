@@ -1,0 +1,52 @@
+:root{
+    --focus-color: var(--main-color-text);
+    --focus-color-2: red;
+    --focus-style: solid 1px;
+}
+*:focus:not(.focus-visible){
+    /* something for focused from mouse maybe*/
+}
+
+.focus-visible{
+    border: var(--focus-color) var(--focus-style);
+}
+
+.md-button.focus-visible, .md-button.remarq-index-button.focus-visible, .md-button.remarq-index-button-hollow.focus-visible, button.md-button.focus-visible{
+    border: var(--focus-color-2) var(--focus-style); /* index buttons are yellow so need teh red outline */
+}
+
+/*  discover.css */
+div.interests-field.focus-visible {
+    border: var(--focus-color) var(--focus-style);
+}
+
+/* nav-bar.css */
+div.become-author-button.focus-visible,.side-nav-item.active.focus-visible {
+    border: var(--focus-color) var(--focus-style);
+}
+
+.side-nav-item.focus-visible {
+    border-left: var(--focus-color) var(--focus-style);
+}
+
+
+/* readingListsDesktop.style.css */
+.rl-menu-item-action.focus-visible{
+    border-bottom: var(--focus-color) var(--focus-style);
+    background-color: #333538;
+}
+
+/* conversations.css */
+.conversation-item.focus-visible {
+    border: var(--focus-color) var(--focus-style);
+}
+
+/* quill.snow.css */
+.ql-snow button.focus-visible{
+    border: var(--focus-color) var(--focus-style);
+}
+
+/* index.css */
+#menu .top-menu-white-links.focus-visible{
+    border: var(--focus-color) var(--focus-style);
+}
